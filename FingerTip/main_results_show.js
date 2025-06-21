@@ -640,7 +640,7 @@ Object.values(sortby_options).forEach(sortby_option => {
 });
 
 document.addEventListener('DOMContentLoaded', function () {
-    fetch('/FingerTip/main_data_new.json').then(response => response.json()).then((loadedData) => {
+    fetch('main_data_new.json').then(response => response.json()).then((loadedData) => {
         rawData = loadedData;
         generateModelColorsAndStyles(rawData.map(data => data.model));
         createMainResultChart();
