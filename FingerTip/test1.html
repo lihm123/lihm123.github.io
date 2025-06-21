@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--设置编码格式为UTF8-->
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <!--指示浏览器使用EDGE模式来显示-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!--调整初始缩放大小为100%-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My HTML File</title>
+    <link rel="icon" href="https://raw.githubusercontent.com/lihm123/test1/refs/heads/main/logo1.png" type="static/image/icon type">
+    <!--由于github的raw返回text/plain而非text/css，这里使用jsdeliver-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/lihm123/test1@main/leaderboard.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/lihm123/test1@main/main.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/lihm123/test1@main/nav.css">
+
+    <style type="text/css">
+		[mt_node=trans_loading]::after{
+		content: '';
+		vertical-align: middle !important;
+		width: 1em !important;
+		height: 1em !important;
+		display: inline-block !important;
+		margin: 0 4px !important;
+		border: 2px rgba(0, 0, 0, 0.25) solid !important;
+		border-top: 2px rgba(0, 0, 0, 1) solid !important;
+		border-radius: 50% !important;
+		padding: 0 !important;
+		-webkit-animation: immersive-translate-loading-animation 0.6s infinite linear !important;
+		animation: immersive-translate-loading-animation 0.6s infinite linear !important;
+		}
+
+		@keyframes immersive-translate-loading-animation {
+			from {
+				transform: rotate(0deg,0deg,0deg);
+			}
+			to {
+				transform: rotate(359deg,0deg,0deg);
+			}
+		}
+	</style><style type="text/css">[mt_node^=trans]{display: none !important;}</style>
+
+</head>
+<body>
+
+    <div id="nav">
+        <div>
+            <!--记得更改这里-->
+            <a class="nav-button" href="https://lihm123.github.io/test1.html">Home</a>
+            <a class="nav-button" href="https://tsinghua-fib-lab.github.io/AgentSquare_website/module.html">New Module</a>
+        </div>
+    </div>
+    <!-- 导航栏锚点 -->
+    <div id="home" style="position: absolute; top: 0;"></div>
+
+    <div id="title">
+        <div id="title-wrapper">
+            <h1 id="title-text"><img src="https://raw.githubusercontent.com/lihm123/test1/refs/heads/main/logo1.png" id="title-icon" alt="AgentSquare">FingerTip 20K: A Benchmark for Proactive and Personalized Mobile LLM Agents<br>
+                (2025)
+            </h1>
+        </div>
+        <!--    <h1 id="title-padding-bottom"></h1>-->
+    </div>
+
+    <!--使用h1到h5定义标题，使用p定义段落-->
+    <p>这是主页,以下是示例图.</p>
+    <img src="https://raw.githubusercontent.com/lihm123/test1/refs/heads/main/111.jpg" alt="Picture 1 failed to show.">
+</body>
+</html>
