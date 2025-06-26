@@ -4,9 +4,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Overview - FingerTip</title>
-    <link rel="stylesheet" href="/FingerTip/style.css">
     <link rel="icon" href="/FingerTip/logo1.png" type="static/image/icon type">
+    <link rel="stylesheet" href="/FingerTip/style.css">
+    <link rel="stylesheet" href="/FingerTip/leaderboard.css">
+    <link rel="stylesheet" href="/FingerTip/main.css">
+    <link rel="stylesheet" href="/FingerTip/nav.css">
+    <script src="/FingerTip/chart.umd.min.js"></script>
+    <script src="/FingerTip/chartjs-plugin-datalabels@2.0.0"></script>
+    <script src="/FingerTip/chartjs-plugin-annotation.min.js"></script>
+    <!-- Google tag (gtag.js) -->
+    <script async="" src="/FingerTip/js"></script>
     <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <style type="text/css">
+		[mt_node=trans_loading]::after{
+		content: '';
+		vertical-align: middle !important;
+		width: 1em !important;
+		height: 1em !important;
+		display: inline-block !important;
+		margin: 0 4px !important;
+		border: 2px rgba(0, 0, 0, 0.25) solid !important;
+		border-top: 2px rgba(0, 0, 0, 1) solid !important;
+		border-radius: 50% !important;
+		padding: 0 !important;
+		-webkit-animation: immersive-translate-loading-animation 0.6s infinite linear !important;
+		animation: immersive-translate-loading-animation 0.6s infinite linear !important;
+		}
+
+		@keyframes immersive-translate-loading-animation {
+			from {
+				transform: rotate(0deg,0deg,0deg);
+			}
+			to {
+				transform: rotate(359deg,0deg,0deg);
+			}
+		}
+	</style><style type="text/css">[mt_node^=trans]{display: none !important;}</style>
     <style>
         .modal {
             display: none;
