@@ -438,7 +438,7 @@
                     <thead>
                         <tr>
                             <th>Model</th>
-                            <th>SR<sub>1</sub></th>
+                            <th>SR<sub>1</sub>(%)</th>
                             <th>Sim<sub>1</sub></th>
                             <th>Time (sec)</th>
                             <th>Token</th>
@@ -454,7 +454,7 @@
                     <thead>
                         <tr>
                             <th>Model</th>
-                            <th>SR<sub>2</sub></th>
+                            <th>SR<sub>2</sub>(%)</th>
                             <th>Sim<sub>2</sub></th>
                             <th>Step Ratio</th>
                             <th>Time (sec)</th>
@@ -497,13 +497,13 @@
                     { 
                         data: 'SR1', 
                         className: 'value', 
-                        render: function(data) { return parseFloat(data).toFixed(2) + '%'; },
+                        render: function(data) { return parseFloat(data).toFixed(2); },
                         type: 'num'
                     },
                     { 
                         data: 'Sim1', 
                         className: 'value', 
-                        render: function(data) { return parseFloat(data).toFixed(4); },
+                        render: function(data) { return parseFloat(data).toFixed(2); },
                         type: 'num'
                     },
                     { 
@@ -561,13 +561,13 @@
                     { 
                         data: 'SR2', 
                         className: 'value', 
-                        render: function(data) { return parseFloat(data).toFixed(2) + '%'; },
+                        render: function(data) { return parseFloat(data).toFixed(2); },
                         type: 'num'
                     },
                     { 
                         data: 'Sim2', 
                         className: 'value', 
-                        render: function(data) { return parseFloat(data).toFixed(4); },
+                        render: function(data) { return parseFloat(data).toFixed(2); },
                         type: 'num'
                     },
                     { 
