@@ -488,70 +488,42 @@
                 <h2>About FingerTip</h2>
                 <p style="line-height: 150%">
                     <b>FingerTip</b> is a novel benchmark for mobile GUI agents that evaluates proactive task suggestion and personalized task execution capabilities.<br>
-                    (这句没改)Main Performance of different Methods across various tasks and the modules that different agents contain are shown below, please check our <a class="ext-link" href="https://tsinghua-fib-lab.github.io/AgentSquare_website/module.html">New module</a> for more details about New Modules.
+                </p>
+            </div>
+            <div class="section">
+                <h2>Main Performance of Different Module on FingerTip</h2>
+                <p style="line-height: 150%">
+                    For more details about the performance of various modules on our new dataset, please check our 
+                    <a class="ext-link" href="https://tsinghua-fib-lab.github.io/AgentSquare_website/module.html"target="_blank">performance</a> page.
                 </p>
             </div>
             <div style="text-align: center; margin-top: 15px;">
                 <img src="/FingerTip/111.png" alt="示例图1.png" style="width: 100%; max-width: 1200px;">
             </div>
 
-            <div class="announcement-banner">
-                <ul>
-                    <li>🚩 This challenge is a part of <a href="https://www2025.thewebconf.org/accepted-competitions" target="_blank">The Web Conference 2025.</a></li>
-                </ul>
+            
+            <div class="section">
+                <h2>Overview of FingerTip</h2>
+                <p style="line-height: 150%">
+                    We construct <b>FingerTip</b> using real-world human demonstrations of <b>multi-step</b> Android interactions, continuously collected from users' daily lives with essential <b>contextual information.</b>
+                    Based on this, we design a novel dataset and introduce two innovative tracks: <b>proactive task suggestions</b> and <b>personalized task execution</b>.
+                    You may check
+                    our <a class="ext-link" href="https://openreview.net/forum?id=4ZLnewb5qB" target="_blank">paper</a> for more details.
+                </p>
             </div>
-            <p>
-                We are excited to announce the AgentSociety Challenge, a competition for designing large language model (LLM) agents to advance web experience. 
-                As organizers, we recognize the crucial role online review platforms play in today's web society, serving as vital spaces for experience sharing, 
-                advice seeking, and social interaction. We have carefully designed two competitive tracks to explore the potential of LLM agents: the User Modeling Track,
-                which focuses on understanding user preferences and simulating online reviews, and the Recommendation Track, 
-                dedicated to delivering personalized recommendations across diverse scenarios. The Challenge utilizes large-scale public datasets from prominent online review platforms, 
-                complemented by a textual simulator to provide interactive feedback for LLM agents. Through this challenge, 
-                we aim to drive innovation and breakthrough in the integration of LLM technologies with real-world Web applications.
-            </p>
 
-            <h2>📍 Problem Statement</h2>
-            <p>
-                The participants are tasked to construct agentic workflows with LLM to process information, write reviews, and make recommendations 
-                by interacting with online review platforms. To facilitate this, we have built an interactive 
-                simulation environment that allows agents to engage with these platforms in a controlled setting.
-                The interactive environment is built based on open-source datasets, including Yelp<sup><a href="#yelp-dataset">[1]</a></sup>, 
-                Amazon<sup><a href="#amazon-dataset">[2]</a></sup>, and Goodreads<sup><a href="#goodreads-dataset">[3]</a></sup>, 
-                complemented by a textual simulator to provide interactive feedback for agents.
-                Specifically, this challenge consists of two tracks: 
+            <!--
+                在注释和列表中加入链接的方式：
+                <p>
+                Amazon<sup><a href="#amazon-dataset">[2]</a></sup>
                 <ul>
-                    <li><strong><a href="modeling-track.html">User Modeling Track</a></strong>: In this track, participants must design agents to simulate user reviews and star ratings, 
-                        focusing on simulating user behavior in specific scenarios by leveraging their historical actions and accessible environmental data. 
-                        By utilizing the text simulation environment, participants come up with new solutions to these problems in an interactive environment in agentic mode, 
-                        ensuring a comprehensive and diverse evaluation of user behaviors. </li>
-                    <li><strong><a href="recommendation-track.html">Recommendation Track</a></strong>: In this track, participants are tasked with using agents to generate rankings based on the current user's preferences, 
-                        which emphasizes building personalized recommendation assistants that provide users with appropriate suggestions tailored to particular contexts. </li>
+                    <li><strong><a href="modeling-track.html"></li>
                 </ul>
-            </p>
-            <p>
-                Based on the concept of modular agent design, participants are encouraged to adopt an actionable modular design space with four key modules: 
-                <strong>Planning</strong>, <strong>Reasoning</strong>, <strong>Tool use</strong>, and <strong>Memory</strong><sup><a href="#agentsquare">[4]</a></sup>. 
-                These modules have standardized interface to allow them cooperate with each other in a workflow: upon receiving a task query, the agent begins by decomposing it into sub-tasks through the Planning module. 
-                The Reasoning module then processes each sub-task, and when necessary, activates the Tool use module to select external tools for problem-solving. 
-                Additionally, the Memory module supports the reasoning process by accessing past observations and experiences, ensuring the agent continuously refines its actions based on feedback from the environment. 
-                Through this modular design approach, participants can not only create effective solutions for this challenge but also contribute reusable modules to the broader agent community, 
-                fostering innovation and collaboration in agent development.
-            </p> 
-
-            <p>
-                As a bonus, the top-ranking teams advancing to the Final Phase will receive assistance in deploying their agents on the <strong>OpenCity platform</strong><sup><a href="#opencity">[5]</a></sup>. 
-                OpenCity is an open-source platform designed to simulate large-scale LLM agents within a digital city environment. 
-                Solutions submitted to the Recommendation and User Modeling tracks will be adapted to simulate offline movement and online reviews, 
-                respectively, offering a dynamic illustration of the Agent Society vision. Selected teams will be invited to present their work at the WWW Workshop, 
-                where they can compete for the Best Demo award.
-                <!-- <div style="display: flex; justify-content: center; align-items: center; margin: 20px 0;">
-                    <div style="width: 80%; text-align: center;">
-                        <img src="../assets/images/large_scale_simulation.png" alt="Agent Simulation Example" style="width: 100%; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
-                        <p style="text-align: center; margin-top: 10px; color: #666;">Large-scale LLM Agents Simulation in OpenCity</p>
-                    </div>
-                </div> -->
-            </p>
-            <div class="announcement-banner">
+                </p>
+            -->
+            
+            <!--
+                <div class="announcement-banner">
                 <li>📄 Please cite our paper if you use our resources:</li>
                 <pre style="background-color: #f5f5f5; padding: 10px; border-radius: 5px; font-size: 0.9em; overflow-x: auto;">
 @article{yan2025agentsociety,
@@ -563,96 +535,10 @@
 </pre>
                 <li>💎 The Resource & Code base for agent development: <a href="https://github.com/tsinghua-fib-lab/WebSocietySimulator" target="_blank">Official Github.</a></li>
             </div>
+            -->
+            
 
-            <h2>📅 Timeline</h2>
-            <p>
-                The competition will be held from Jan 1st, 2025 to Feb 14th, 2025, following the timeline outlined below: 
-                <ul>
-                    <li><strong>Start of Development Phase:</strong> Jan 1st, 2025 (<strong>Final submission deadline:</strong> Jan 30th, 2025, AoE)</li>
-                    <li><strong>Start of Final Phase:</strong> Feb 1st, 2025 (<strong>Final submission deadline:</strong> Feb 12th, 2025, AoE)</li>
-                    <li><strong>Winner Notification and Paper Invitation:</strong> Feb 14th, 2025</li>
-                </ul>
-                Note: All submission deadlines are end-of-day in the Anywhere on Earth (AoE) time zone. Top 20 teams will be selected to participate in the Final Phase.
-            </p>
-
-            <h2 id="token-support">💪🏻 Token Support</h2>
-            <p>
-                To support participants, we will provide API-key access during the development phase. 
-                This will be offered through InfinigenceAI, with the following specifications: <strong>RPM=100, TPM=60000, RPD=10000</strong>, and the ability to call models such as Qwen-72b-instruct. 
-                If you wish to use the API, please send your identification documents via email. 
-                Required documents include your full name, organization, proof of participation in this competition, track of participation and any other relevant identification details. 
-                Once your verification is completed, we will send you the API key. Please note that the number of API keys is <strong>limited</strong>. 
-                <strong>Note: All API keys have been distributed. For teams who have not received an API key, please arrange your own API access. Thank you for your cooperation.</strong>
-            </p>
-
-            <h2>🏆 Award</h2>
-            <p>
-                The total prize pool is 12,000 USD. To encourage and reward excellence, 
-                the competition will offer monetary prizes and certificates to top-3 winning teams of each track:
-                <ul>
-                    <li>🥇 1st Place: 2,000 USD</li>
-                    <li>🥈 2nd Place: 1,000 USD</li>
-                    <li>🥉 3rd Place: 500 USD</li>
-                </ul>
-                Besides, challenge prizes also include the in-person <strong>travel grant</strong> for the top 2 winning teams each track. 
-                This remuneration is to be paid after the in-person presentation in our workshop the Web Conference:
-                <ul>
-                    <li>🥇 1st Place: 1,500 USD</li>
-                    <li>🥈 2nd Place: 1,000 USD</li>
-                </ul>
-                <strong>We will recommend Top teams to submit a competition-related papers for inclusion in the conference's companion proceedings.</strong>
-            </p>
-
-            <h2>🏪 Organizing Committee</h2>
-            <p>
-                <strong>Hosting Organization:</strong> <a href="https://fi.ee.tsinghua.edu.cn/" target="_blank">Tsinghua University</a>, <a href="https://cloud.infini-ai.com/" target="_blank">Infinigence AI</a>, <a href="https://www2025.thewebconf.org/" target="_blank">the Web Conference</a>
-            </p> <br>
-            <p>
-                <strong>Committee Members:</strong> Yuwei Yan (HKUST-gz); Yu Shang, Qingbing Zeng, Yu Li, Keyu Zhao, Zhiheng Zheng, Xuefei Ning (Tsinghua University); Tianji Wu, Shengen Yan (Infinigence AI)
-            </p> <br>
-            <p>
-                <strong>Committee Chair:</strong> Fengli Xu, Yu Wang, Yong Li (Tsinghua University)
-            </p>
-
-            <h2>📬 Contact</h2>
-            <p>
-                For any questions or inquiries, please contact us at <a href="mailto:LLMSociety-Challenge@outlook.com">LLMSociety-Challenge@outlook.com</a>.
-            </p>
-
-            <h2>📚 Reference</h2>
-            <ol>
-                <li id="yelp-dataset">
-                    Nabiha Asghar. 
-                    <strong>Yelp dataset challenge: Review rating prediction</strong>. 
-                    arXiv preprint arXiv:1605.05362, 2016. 
-                    <a href="https://arxiv.org/abs/1605.05362">[arXiv]</a>
-                </li>
-                <li id="amazon-dataset">
-                    Yupeng Hou, Jiacheng Li, Zhankui He, An Yan, Xiusi Chen, Julian McAuley. 
-                    <strong>Bridging Language and Items for Retrieval and Recommendation</strong>. 
-                    arXiv preprint arXiv:2403.03952, 2024.
-                    <a href="https://arxiv.org/abs/2403.03952">[arXiv]</a>
-                </li>
-                <li id="goodreads-dataset">
-                    Mengting Wan, Julian J. McAuley. 
-                    <strong>Item recommendation on monotonic behavior chains</strong>. 
-                    In <em>Proceedings of the 12th ACM Conference on Recommender Systems (RecSys 2018)</em>, 
-                    Vancouver, BC, Canada, October 2-7, 2018, pp. 86–94. ACM, 2018. 
-                    <a href="https://doi.org/10.1145/3240323.3240369">[DOI]</a>
-                </li>
-                <li id="agentsquare">
-                    Yu Shang, Yu Li, Keyu Zhao, Likai Ma, Jiahe Liu, Fengli Xu, Yong Li. 
-                    <strong>AgentSquare: Automatic LLM Agent Search in Modular Design Space</strong>. 
-                    arXiv preprint arXiv:2410.06153, 2024. 
-                    <a href="https://arxiv.org/abs/2410.06153">[arXiv]</a>.
-                </li>
-                <li id="opencity">
-                    Yuwei Yan, Qingbin Zeng, Zhiheng Zheng, Jingzhe Yuan, Jie Feng, Jun Zhang, Fengli Xu, Yong Li.  
-                    <strong>OpenCity: A Scalable Platform to Simulate Urban Activities with Massive LLM Agents</strong>.  
-                    arXiv preprint arXiv:2410.21286, 2024.  
-                    <a href="https://arxiv.org/abs/2410.21286">[arXiv]</a>.
-                </li>
-            </ol>
+            
         </section>
     </main>
 
