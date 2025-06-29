@@ -1,0 +1,5 @@
+Model,SR1,Sim1,Time,Token
+GPT-4.1,7.2,0.35,5.64,796
+Qwen-VL-Max,6.9,0.33,1.98,950
+Deepseek-VL2,4.3,0.25,0.71,743
+Qwen-2.5-vl-7B,3.1,0.25,0.78,943
